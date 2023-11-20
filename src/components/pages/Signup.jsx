@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Illustration from '../illustration';
+import Illustration from '../Illustration';
 import SignupForm from '../SignupForm';
 
 const Signup = () => {
