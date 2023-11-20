@@ -4,7 +4,6 @@ import useFetch from '../hooks/useFetch';
 import classes from '../styles/Summary.module.css';
 
 const Summary = ({ score, noq }) => {
-    console.log(score, noq);
     const getKeyword = useMemo(() => {
         if ((score / (noq * 5)) * 100 < 50) {
             return 'failed';

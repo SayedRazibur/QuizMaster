@@ -1,6 +1,6 @@
 import React from 'react';
+import Illustration from '../Illustration';
 import LoginForm from '../LoginForm';
-import Illustration from '../illustration';
 
 const Login = () => {
     return (
