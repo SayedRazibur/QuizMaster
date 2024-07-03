@@ -12,3 +12,9 @@
 .account > span:last-child {
     cursor: pointer;
 }
+.signup,
+.login {
+    color: rgb(10, 0, 57);
+    font-size: 0.8rem;
+    font-weight: 600;
+}
