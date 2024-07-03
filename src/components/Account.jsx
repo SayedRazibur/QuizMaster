@@ -21,8 +21,12 @@ const Account = () => {
                 </>
             ) : (
                 <>
-                    <Link to="/signup">Signup</Link>
-                    <Link to="/login">Login</Link>
+                    <Link to="/signup" className={classes.signup}>
+                        Signup
+                    </Link>
+                    <Link to="/login" className={classes.login}>
+                        Login
+                    </Link>
                 </>
             )}
         </div>
